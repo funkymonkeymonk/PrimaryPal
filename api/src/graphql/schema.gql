@@ -1,0 +1,8 @@
+type Candidate {
+    Name: String
+    Votes: Int
+}
+
+type Query {
+    primaryWinners: [Candidate]!
+}

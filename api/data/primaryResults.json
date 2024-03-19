@@ -1,0 +1,130 @@
+{
+	"Pennsylvania": { 
+		"Chester": { 
+			"Democrats" :{ 
+				"Humphrey ": 100, 
+				"McGovern": 50 
+			}, 
+			"Republicans" :{ 
+				"Nixon": 200, 
+				"Ashbrook": 2, 
+				"McCloskey": 1 
+			} 
+		} 
+	},
+  "California": {
+    "Alameda": {
+      " Democrats": {
+        "Humphrey ": 120,
+        "McGovern": 95,
+        "Carter": 87
+      },
+      "Republicans ": {
+        "Nixon": 300,
+        "Ashbrook": 5,
+        "McCloskey": 3
+      }
+    },
+    "Fresno": {
+      "Democrats": {
+        "Humphrey": 110,
+        "McGovern": 78,
+        "Carter": 45
+      },
+      "Republicans": {
+        "Nixon": 250,
+        "Ashbrook": 4,
+        "McCloskey": 2,
+        "Reagan": 150
+      }
+    },
+    "Sacramento": {
+      "Democrats": {
+        "Humphrey ": 130,
+        "McGovern ": 60,
+        "Carter": 90
+      },
+      "Republicans": {
+        "Nixon": 280,
+        "Ashbrook": 6,
+        "McCloskey": 3
+      }
+    }
+  },
+  "Texas": {
+    "Harris": {
+      "Democrats": {
+        "Humphrey": 180,
+        "McGovern": 120,
+        "Johnson": 100
+      },
+      "Republicans": {
+        "Nixon": 400,
+        "Ashbrook": 8,
+        "McCloskey": 1000
+      }
+    },
+    "Dallas": {
+      " Democrats ": {
+        "Humphrey": 160,
+        "McGovern": 110,
+        "Johnson": 90
+      },
+      "Republicans": {
+        "Nixon": 380,
+        "Ashbrook": 7,
+        "McCloskey": 5
+      }
+    },
+    "Travis": {
+      "Democrats": {
+        "Humphrey ": 170,
+        "McGovern ": 130,
+        "Johnson": 95
+      },
+      "Republicans ": {
+        "Nixon": 420,
+        "Ashbrook": 9,
+        "McCloskey": 6
+      }
+    }
+  },
+  "Florida": {
+    "Miami-Dade": {
+      "Democrats": {
+        "Humphrey ": 190,
+        "McGovern": 140,
+        "Wallace": 80
+      },
+      "Republicans": {
+        "Nixon": 450,
+        "Ashbrook": 10,
+        "McCloskey": 7
+      }
+    },
+    "Broward": {
+      " Democrats": {
+        "Humphrey": 200,
+        "McGovern": 150,
+        "Wallace": 85
+      },
+      "Republicans": {
+        "Nixon": 470,
+        "Ashbrook": 11,
+        "McCloskey": 8
+      }
+    },
+    "Palm Beach": {
+      "Democrats ": {
+        "Humphrey ": 210,
+        "McGovern ": 160,
+        "Wallace": 90
+      },
+      "Republicans": {
+        "Nixon": 490,
+        "Ashbrook": 12,
+        "McCloskey": 9
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "extends": "@tsconfig/node21/tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "typeRoots": ["node_modules/@types", "src/@types"],
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+  },
+  "files": ["src/@types/gql.d.ts"],
+  "include": ["src/*", "src/graphql"],
+  "exclude": ["node_modules", "**/*.test.ts"]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "GraphqlAPITemplate",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "server.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/client": "^3.9.7",
+    "@apollo/server": "^4.10.1",
+    "graphql": "^16.8.1"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "5.0.2",
+    "@graphql-codegen/typescript": "4.0.6",
+    "@graphql-codegen/typescript-resolvers": "4.0.6",
+    "@tsconfig/node21": "^21.0.1",
+    "@types/node": "^20.11.28",
+    "@types/underscore": "^1.11.15",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.2"
+  },
+  "scripts": {
+    "compile": "rm -rf dist && tsc -p tsconfig.json",
+    "start": "pnpm run compile && node ./dist/server.js",
+    "dev": "tsx watch src/server.ts",
+    "test": "echo 'To be implemented'",
+    "codegen": "graphql-codegen --config codegen.ts"
+  }
+}
